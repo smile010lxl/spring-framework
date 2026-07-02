@@ -20,6 +20,8 @@ configure(allprojects) { project ->
 	apply plugin: "org.springframework.build.localdev"
 	group = "org.springframework"
 	repositories {
+		maven { url = uri("https://maven.aliyun.com/repository/public") }
+		maven { url = uri("https://maven.aliyun.com/repository/google") }
 		mavenCentral()
 		if (version.contains('-')) {
 			maven { url = "https://repo.spring.io/milestone" }

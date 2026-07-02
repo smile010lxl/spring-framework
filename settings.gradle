@@ -29,6 +29,7 @@ include "framework-bom"
 include "framework-docs"
 include "framework-platform"
 include "integration-tests"
+include "spring-mini"
 
 rootProject.name = "spring"
 rootProject.children.each {project ->
