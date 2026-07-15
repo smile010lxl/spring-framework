@@ -5,4 +5,5 @@ apply plugin: "kotlinx-serialization"
 
 dependencies {
 	api(project(":spring-context"))
+    api(project(":spring-aop"))
 }
